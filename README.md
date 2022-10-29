@@ -8,7 +8,7 @@
 
 # As tecnologias utilizadas no Back-End: Node, Express, Postgres, TypeORM, TypeScript.
 
-#Imagens do blog
+# Imagens do blog
 <img src="src/assets/blog-1.png" width="1200px"/> 
 <img src="src/assets/blog-2.png" width="1200px"/>
 <img src="src/assets/blog-3.png" width="1200px"/>

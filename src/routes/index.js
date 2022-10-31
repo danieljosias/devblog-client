@@ -6,7 +6,7 @@ import PostArea from '../pages/PostArea/index'
 import React from 'react'
 
 const Routes = () => {
-    const token = localStorage.getItem('token').slice(10,-2)
+    const token = localStorage.getItem('token')
 
   return (
     <Switch>
@@ -23,7 +23,7 @@ const Routes = () => {
         </Route>
 
         <Route exact path="/postarea">
-            {token ? (
+            {token?.slice(10,-2) ? (
                 <PostArea/>
             ) : (
                 <Redirect to="/signin" />
